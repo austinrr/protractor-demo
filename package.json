@@ -1,0 +1,26 @@
+{
+  "name": "rocketmiles-protractor",
+  "version": "1.0.0",
+  "description": "A test framework example for RocketMiles using Protractor and Cucumber",
+  "main": "index.js",
+  "scripts": {
+    "start-server": "webdriver-manager update && webdriver-manager start",
+    "test": "protractor my_conf.js",
+    "stop-server": "webdriver-manager shutdown"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/austinrr/rocketmiles-prortactor.git"
+  },
+  "author": "Austin Rhodes",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/austinrr/rocketmiles-prortactor/issues"
+  },
+  "homepage": "https://github.com/austinrr/rocketmiles-prortactor#readme",
+  "devDependencies": {
+    "protractor-cucumber": "^0.1.8",
+    "protractor-cucumber-framework": "^0.6.0",
+    "webdrover-manager": "^12.0.2"
+  }
+}
